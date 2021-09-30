@@ -1,7 +1,7 @@
 # Link-Prediction-for-Social-Recommendation
 
 ## Problem
-In recommendation task, we focus on how to recommend a suitable service or goods for users. In general, data are represented as many types. Here, we model these data and their relations as a graph. Link prediction mainly predicts the hidden connections between two users or user and goods. This method applies machine learning model to seek hidden edges on social network. We view this task as a classification work for two class. In machine learning, how to extract useful features is a main task. In our method, features are from scoring functions. 
+In recommendation, we focus on how to recommend a suitable service or goods for users. In general, data are represented as many types. Here, we model these data and their relations as a graph. Link prediction mainly predicts the hidden connections between two users or user and goods. This method applies machine learning model to seek hidden edges on social network. We view this task as a classification work for two class. In machine learning, how to extract useful features is a main task. In our method, features are from scoring functions. 
 
 ## Definition
 Given a undirected graph 𝐺=(𝑉,𝐸), the edge samples are defined as follows.  
