@@ -8,7 +8,7 @@ Given a undirected graph 𝐺=(𝑉,𝐸), the edge samples are defined as follo
 Positive sample: All existing edges on graph.  
 Negative sample: Edges which are still not on graph.
 
-### Scoring functions
+## Scoring functions
 Jaccard coeffiecients: Here we calculate two versions JC for nodes’ successors and predecessors, respectively.
 
 Cosine similarity: This function is to calculate the angle with given nodes’ neighbors(successors and predecessors).
@@ -17,7 +17,7 @@ Shortest path: The shortest path is meaning that there is at least one path betw
 
 Preferential Attatchment: Sum or product of degrees of two ends.
 
-### Process
+## Process
 
 Step 1: Add edge pairs from data_train_edge.csv to graph G.  
 Step 2: Construct positive samples.  
