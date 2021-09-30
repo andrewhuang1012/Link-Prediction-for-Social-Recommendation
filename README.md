@@ -1,10 +1,14 @@
 # Link-Prediction-for-Social-Recommendation
+
+## Problem
+In recommendation task, we focus on how to recommend a suitable service or goods for users. In general, data are represented as many types. Here, we model these data and their relations as a graph. Link prediction mainly predicts the hidden connections between two users or user and goods. This method apply machine learning model to seek hidden edges on social network. We view this task as a classification work for two class.
+
 ## Definition
 Given a undirected graph 𝐺=(𝑉,𝐸), the edge samples are defined as follows.  
 Positive sample: All existing edges on graph.  
 Negative sample: Edges which are still not on graph.
 
-### Scoring functions:
+### Scoring functions
 Jaccard coeffiecients: As course contents, but here we calculate two versions JC for nodes’ successors and predecessors, respectively.
 
 Cosine similarity: This function is to calculate the angle with given nodes’ neighbors(successors and predecessors).
