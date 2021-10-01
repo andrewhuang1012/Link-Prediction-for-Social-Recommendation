@@ -32,7 +32,7 @@ def shortest_path_score(G, source, target):
 
 
 ###### Preprocessing #######
-dataset = pd.read_csv("data_train_edge.csv")
+dataset = pd.read_csv("data_train_edge.csv") # Read data from csv
 G = nx.DiGraph()  # Construct a directed graph
 construct_set = dataset[:int(len(dataset)*0.3)]
 
