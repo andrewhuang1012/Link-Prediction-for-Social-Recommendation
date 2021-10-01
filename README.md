@@ -1,10 +1,10 @@
-# Link-Prediction-for-Social-Recommendation
+# Link Prediction for Social Recommendation
 
 ## Problem
 In recommendation, we focus on how to recommend a suitable service or goods for users. In general, data are represented as many types. Here, we model these data and their relations as a graph. Link prediction mainly predicts the hidden connections between two users or user and goods. This method applies machine learning model to seek hidden edges on social network. We view this task as a classification work for two class. In machine learning, how to extract useful features is a main task. In our method, features are from scoring functions. 
 
 ## Definition
-Given a undirected graph 𝐺=(𝑉,𝐸), the edge samples are defined as follows.  
+Given a undirected graph G=(V,E), the edge samples are defined as follows.  
 Positive sample: All existing edges on graph.  
 Negative sample: Edges which are still not on graph.
 
@@ -16,6 +16,10 @@ Cosine similarity: This function is to calculate the angle with given nodes’ n
 Shortest path: The shortest path is meaning that there is at least one path between two nodes.
 
 Preferential Attatchment: Sum or product of degrees of two ends.
+
+## Files
+data_train_edge.csv contains all explicit connections on the network. In prepreocessing, we only need to prepare missing edges on the network.  
+If we only consider edges in data_train_edge.csv, the dataset will be an imbalanced dataset. To prevent our model from underfitting, we add missing edges to our dataset.
 
 ## Process
 
