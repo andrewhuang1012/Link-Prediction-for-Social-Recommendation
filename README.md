@@ -31,4 +31,5 @@ Step 5: Calculate scoring functions for negative sample, labeling the negative s
 Step 6: Choose about 20,000 samples from negative samples and then combine them with positive sample to prepare the data set.  
 Step 7: Use data set to fit the regression classifier.  
 Step 8: Read the edges pairs from predict.csv and calculate their scoring functions.  
-Step 9: Use regression classifier that already trained by data set to predict hidden edges.  
+Step 9: Use regression classifier that already trained by data set to predict hidden edges.
+Step 10: Ouput prediction results in answer.csv
